@@ -1,0 +1,113 @@
+# ----------------
+# OS & general
+# ----------------
+.DS_Store
+Thumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+*.orig
+*.rej
+
+# ----------------
+# Logs & reports
+# ----------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# ----------------
+# Caches & temp
+# ----------------
+.cache/
+.metro-cache/
+.react-native/
+.eslintcache
+.tmp/
+tmp/
+temp/
+
+# ----------------
+# Node / package managers
+# ----------------
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ----------------
+# Env files
+# ----------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ----------------
+# TypeScript
+# ----------------
+*.tsbuildinfo
+
+# ----------------
+# Android
+# ----------------
+.gradle/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/.gradle/
+android/**/.idea/
+android/**/.cxx/
+android/**/build/
+**/build/
+**/intermediates/
+**/generated/
+captures/
+*.iml
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# Generated RN bundles/sourcemaps (specific paths to avoid ignoring resource bundles)
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.map
+**/sourcemaps/**
+
+# ----------------
+# iOS
+# ----------------
+ios/Pods/
+ios/build/
+ios/**/DerivedData/
+ios/**/*.xcodeproj/xcuserdata/
+ios/**/*.xcworkspace/xcuserdata/
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.moved-aside
+*.xccheckout
+.swiftpm/
+.build/
+*.dSYM
+*.dSYM.zip
+*.ipa
+ios/main.jsbundle
+
+# ----------------
+# IDE settings
+# ----------------
+.idea/
+*.iml
+.vscode/
+
