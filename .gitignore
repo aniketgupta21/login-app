@@ -1,0 +1,121 @@
+# --------
+# General
+# --------
+.DS_Store
+Thumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary/cache
+.cache/
+.parcel-cache/
+.eslintcache
+.tmp/
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ---------------
+# Node / Yarn
+# ---------------
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ----------------------
+# React Native / Metro
+# ----------------------
+.react-native/
+.metro-cache/
+coverage/
+
+# Bundled assets and sourcemaps
+*.bundle
+*.map
+**/sourcemaps/**
+
+# ------------
+# Android
+# ------------
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/local.properties
+android/**/.gradle/
+android/**/.idea/
+android/**/build/
+**/build/
+**/intermediates/
+**/generated/
+**/.cxx/
+captures/
+
+# Keystores (debug/release)
+*.keystore
+*.jks
+
+# Android outputs
+*.apk
+*.aab
+
+# --------
+# iOS
+# --------
+ios/Pods/
+ios/build/
+ios/**/*.xcodeproj/xcuserdata/
+ios/**/*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Xcode user state
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.moved-aside
+*.xccheckout
+
+# Swift / SPM
+.swiftpm/
+.build/
+
+# dSYM and archives
+*.dSYM
+*.dSYM.zip
+*.ipa
+
+# -------------
+# IDE settings
+# -------------
+.idea/
+*.iml
+.vscode/
+
+# -----------
+# Misc
+# -----------
+*.orig
+*.rej
+
